@@ -15,4 +15,5 @@ A simple quote of the day website for programmers in need of bit of motivation.
 
 ## API Used
 
-This project uses the [Programming Quotes API](https://programming-quotes-api.vercel.app) to fetch random quotes.
+Api used for this project-
+"https://programming-quotesapi.vercel.app/api/random"
