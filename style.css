@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-color: lightseagreen;
+}
+
+.quote-box{
+    width: 50%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+    text-align: center;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.quote-box h2{
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.quote-box h2::after{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: black;
+    margin: 20px auto;
+}
+
+.quote-box blockquote{
+    font-size: 24px;
+    min-height: 100px;
+}
+
+.quote-box blockquote::before, .quote-box blockquote::after{
+    content: '"';
+}
+    
+.quote-box span{
+    font-size: 18px;
+    font-weight: 300;
+    display: block;
+    margin-top: 20px;
+    position: relative;
+    float: right;
+}
+
+.quote-box span::before{
+    content: '-';
+    position: absolute;
+    left: -20px;
+}
+
+.quote-box div{
+    width: 100%;
+    margin-top: 50px;
+    
+    justify-content: center;
+}
+
+.quote-box button{
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.quote-box button img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.quote-box button:nth-child(3){
+    background:lightblue;
+    color: #333;
+    border: 1px solid lightblue;
+    border-radius: 15px;    
+}
