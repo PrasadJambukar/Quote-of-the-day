@@ -14,6 +14,6 @@ A simple quote of the day website for programmers in need of bit of motivation.
 - JavaScript
 
 ## API Used
-
-Api used for this project-
+```
 "https://programming-quotesapi.vercel.app/api/random"
+```
